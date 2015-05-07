@@ -147,8 +147,9 @@ button.am-topbar-btn.am-topbar-toggle.am-btn.am-btn-sm.am-btn-secondary.am-show-
 }
 
 .hope {
-  background: #0bb59b;
+  background: transparent;
   padding: 50px 0;
+  color: #fff;
 }
 
 .hope-img {
@@ -156,7 +157,7 @@ button.am-topbar-btn.am-topbar-toggle.am-btn.am-btn-sm.am-btn-secondary.am-show-
 }
 
 .hope-hr {
-  border-color: #149C88;
+  border-color: #fff;
 }
 
 .hope-title {
@@ -256,7 +257,7 @@ button.am-topbar-btn.am-topbar-toggle.am-btn.am-btn-sm.am-btn-secondary.am-show-
   .am-offcanvas .am-nav a {
     text-transform:uppercase;
     color: #777;
-    transition: background-color 300ms ease-out,border-color 300ms ease-out;
+    transition: background-color 300ms;
   }
   .am-offcanvas .am-nav>li>a:hover {
     color: #fff;
@@ -279,7 +280,9 @@ button.am-topbar-btn.am-topbar-toggle.am-btn.am-btn-sm.am-btn-secondary.am-show-
   .am-offcanvas-bar:after {
     content: none;
   }
-
+  .am-nav>li+li {
+     margin-top: 0px; 
+  }
 }
 
 @media only screen and (max-width: 640px) {
