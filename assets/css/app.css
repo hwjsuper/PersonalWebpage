@@ -163,7 +163,12 @@ button.am-topbar-btn.am-topbar-toggle.am-btn.am-btn-sm.am-btn-secondary.am-show-
 .hope-title {
   font-size: 140%;
 }
-
+.hope a{
+  color: #fff;
+}
+.hope a:hover{
+  color: #ddd;
+}
 .about {
   background: #fff;
   padding: 40px 0;
@@ -196,10 +201,11 @@ button.am-topbar-btn.am-topbar-toggle.am-btn.am-btn-sm.am-btn-secondary.am-show-
 @media only screen and (min-width: 1200px) {
   .blog-g-fixed {
     max-width: 1200px;
-    margin-top: 50px;
   }
 }
-
+.blog-g-fixed {
+  margin-top: 50px;
+}
 @media only screen and (min-width: 641px) {
   .blog-sidebar {
     font-size: 1.4rem;
